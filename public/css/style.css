@@ -1,0 +1,236 @@
+/* CSS Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+ul,
+ol {
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-play-state: paused !important;
+    transition: none !important;
+  }
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #ffffff;
+}
+
+.site-title {
+  margin: 0;
+  padding: 0;
+  color: #140d01;
+  margin-left: 10px;
+}
+
+/* Banner Section */
+/* .banner {
+    position: relative;
+    margin: 0 auto;
+    background-image: url('https://images.unsplash.com/photo-1642055910986-b2a600d336a6?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+.banner::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.banner-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 1;
+    color: #fff;
+}
+
+.banner-content h1 {
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+    font-size: 77px;
+    font-weight: 800;
+    line-height: 100.5%;
+    letter-spacing: -3.0px;
+    margin-bottom: 28px;
+}
+
+.banner-content p {
+    font-size: 18px;
+    margin-bottom: 48px;
+}
+
+*/
+
+.btn {
+  padding: 10px 20px;
+  background-color: #ff9900;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 50px; /* Make button radius round */
+}
+
+.btn:hover {
+  background-color: #e68a00;
+}
+
+/* About sukabumi Section */
+.about-sukabumi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 100px 20px;
+  background-color: #f8f8f8;
+}
+
+.about-sukabumi .content {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about-sukabumi .description {
+  flex: 1 1 50%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.about-sukabumi h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
+  margin-bottom: 30px;
+  color: #333;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.about-sukabumi p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 0;
+}
+
+.about-sukabumi .image {
+  flex: 1 1 50%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.about-sukabumi .image img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Tourist Places Section */
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  color: #ffffff;
+  padding: 0;
+}
+
+/* Maps Section */
+.maps {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.maps h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #333;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.map {
+  height: 500px;
+  width: 100%;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+footer a {
+  color: #ff9900;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #e68a00;
+}
+
